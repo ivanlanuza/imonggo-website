@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 html,
 body {
   padding: 0;
@@ -27,4 +28,42 @@ a {
     color: white;
     background: black;
   }
+}
+
+.bgblue {
+  background-color: #0B224B;
+}
+
+.bgorange {
+  background-color: #E65716;
+}
+
+.textblue {
+  color: #0B224B;
+}
+
+.textorange {
+  color: #E65716;
+}
+
+.custom-shape-divider-bottom-1672798458 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1672798458 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 75px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1672798458 .shape-fill {
+  fill: #FFFFFF;
 }
