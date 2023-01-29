@@ -5,10 +5,10 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       <Head>
-        <title>imonggo - World's Easiest Point of Sale</title>
+        <title>imonggo - World&apos;s Easiest Point of Sale</title>
         <meta
           name="description"
-          content="imonggo is great for small and medium retail businesses."
+          content="Imonggo is great for small and medium retail businesses."
         />
       </Head>
       <Component {...pageProps} />
