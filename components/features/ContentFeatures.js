@@ -85,7 +85,7 @@ const ContentFeatures = ({}) => (
     </div>
 
     <div className="grid grid-cols-2 gap-8 mx-32 mt-24">
-      <div className="col-span-1">
+      <div className="col-span-1 pl-32">
         <ContentQuadrant content={quadrantinventory} />
       </div>
       <div className="col-span-1">
@@ -111,7 +111,7 @@ const ContentFeatures = ({}) => (
     </div>
 
     <div className="grid grid-cols-2 gap-8 mx-32 mt-24">
-      <div className="col-span-1">
+      <div className="col-span-1 pl-32">
         <ContentQuadrant content={quadrantonline} />
       </div>
       <div className="col-span-1">

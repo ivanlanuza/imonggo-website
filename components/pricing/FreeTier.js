@@ -5,7 +5,7 @@ import OrangeButton from "components/core/OrangeButton";
 
 const FreeTier = ({}) => (
   <div className="relative">
-    <div className="grid grid-cols-8  pb-12 place-content-center lg:mt-16 lg:px-32 bg-gradient-to-t from-orange-200 via-white ">
+    <div className="grid grid-cols-8  pb-24 place-content-center lg:mt-16 lg:px-32 bg-gradient-to-t from-orange-200 via-white ">
       <div className="col-span-3">
         <Image src="/images/pricing/free.png" width="609" height="471" />
       </div>

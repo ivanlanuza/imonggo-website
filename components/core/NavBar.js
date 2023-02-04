@@ -80,27 +80,29 @@ export default function NavBar() {
                   </Link>
                 </div>
               </div>
-              <div className="flex items-center py-3">
-                <Link href="https://secure.imonggo.com/login">
-                  <div className="flex-shrink-0">
-                    <button
-                      type="button"
-                      className="relative inline-flex items-center shadow-sm  bgblue text-white rounded-md border-white border-2 px-6 py-1      hover:border-gray-300  text-sm  cursor-pointer"
-                    >
-                      <span>Log In</span>
-                    </button>
-                  </div>
-                </Link>
-                <Link href="/signup-now">
-                  <div className="flex-shrink-0">
-                    <button
-                      type="button"
-                      className="ml-4 relative inline-flex items-center shadow-sm  bgorange text-white rounded-md border-orange-600 border-2 px-6 py-1      hover:border-white text-sm  cursor-pointer"
-                    >
-                      <span>Sign Up</span>
-                    </button>
-                  </div>
-                </Link>
+              <div className="flex items-center py-3 ">
+                <div className="hidden lg:flex">
+                  <Link href="https://secure.imonggo.com/login">
+                    <div className="flex-shrink-0">
+                      <button
+                        type="button"
+                        className="relative inline-flex items-center shadow-sm  bgblue text-white rounded-md border-white border-2 px-6 py-1      hover:border-gray-300  text-sm  cursor-pointer"
+                      >
+                        <span>Log In</span>
+                      </button>
+                    </div>
+                  </Link>
+                  <Link href="/signup-now">
+                    <div className="flex-shrink-0">
+                      <button
+                        type="button"
+                        className="ml-4 relative inline-flex items-center shadow-sm  bgorange text-white rounded-md border-orange-600 border-2 px-6 py-1      hover:border-white text-sm  cursor-pointer"
+                      >
+                        <span>Sign Up</span>
+                      </button>
+                    </div>
+                  </Link>
+                </div>
                 <div className="-ml-2 -mr-2 flex items-center lg:hidden">
                   {/* Mobile menu button */}
                   <Disclosure.Button className="ml-8 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-900">
@@ -133,22 +135,35 @@ export default function NavBar() {
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
-                href="/articles"
+                href="/features"
                 className={`  block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6
                 ${
-                  asPath === "/articles"
+                  asPath === "/features"
                     ? "bg-indigo-50 border-blue-900 text-blue-900"
                     : "border-transparent text-gray-500"
                 }`}
               >
-                News & Features
+                Features
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
-                href="/about"
+                href="/pricing"
                 className={`  block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6
                 ${
-                  asPath === "/about"
+                  asPath === "/pricing"
+                    ? "bg-indigo-50 border-blue-900 text-blue-900"
+                    : "border-transparent text-gray-500"
+                }`}
+              >
+                Pricing
+              </Disclosure.Button>
+
+              <Disclosure.Button
+                as="a"
+                href="/aboutus"
+                className={`  block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6
+                ${
+                  asPath === "/aboutus"
                     ? "bg-indigo-50 border-blue-900 text-blue-900"
                     : "border-transparent text-gray-500"
                 }`}
@@ -158,28 +173,15 @@ export default function NavBar() {
 
               <Disclosure.Button
                 as="a"
-                href="/products"
+                href="/helpcenter"
                 className={`  block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6
                 ${
-                  asPath === "/products"
+                  asPath === "/helpcenter"
                     ? "bg-indigo-50 border-blue-900 text-blue-900"
                     : "border-transparent text-gray-500"
                 }`}
               >
-                Products
-              </Disclosure.Button>
-
-              <Disclosure.Button
-                as="a"
-                href="/careers"
-                className={`  block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6
-                ${
-                  asPath === "/careers"
-                    ? "bg-indigo-50 border-blue-900 text-blue-900"
-                    : "border-transparent text-gray-500"
-                }`}
-              >
-                Careers
+                Help Center
               </Disclosure.Button>
             </div>
           </Disclosure.Panel>

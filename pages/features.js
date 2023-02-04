@@ -6,7 +6,7 @@ import FooterBar from "components/core/FooterBar";
 
 export default function Features() {
   return (
-    <div>
+    <div className="font-sans">
       <NavBar />
       <HeroFeatures />
       <ContentFeatures />

@@ -5,7 +5,7 @@ import { AdjustmentsIcon } from "@heroicons/react/solid";
 
 export default function Home() {
   return (
-    <div className="bg-white">
+    <div className="bg-white font-sans">
       <NavBar />
       <div className="grid place-content-center h-[420px] items-center ">
         <AdjustmentsIcon className="h-20 textorange" />

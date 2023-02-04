@@ -21,7 +21,6 @@ const ContentTemplate = ({
       next_article_url={next_article_url}
       next_article_title={next_article_title}
     />
-    <SignUpFooter />
     <FooterBar />
   </div>
 );

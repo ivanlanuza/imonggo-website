@@ -8,7 +8,7 @@ import FooterBar from "components/core/FooterBar";
 
 export default function Home() {
   return (
-    <div className="bg-white">
+    <div className="bg-white font-sans">
       <NavBar />
       <HeroHome />
       <ContentEasyJoin />

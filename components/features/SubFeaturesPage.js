@@ -4,14 +4,11 @@ import SubFeaturesContent from "components/features/SubFeaturesContent";
 import FooterBar from "components/core/FooterBar";
 
 import OrangeButton from "components/core/OrangeButton";
-
-import ContentProof from "components/home/ContentProof";
-import FreeTier from "components/pricing/FreeTier";
-import PremiumTier from "components/pricing/PremiumTier";
+import SignUpFooter from "components/core/SignUpFooter";
 
 export default function SubFeaturesPage({ data, hero }) {
   return (
-    <div>
+    <div className="font-sans">
       <NavBar />
       <SubFeaturesHero hero={hero} />
       <div className="my-20">
@@ -24,19 +21,8 @@ export default function SubFeaturesPage({ data, hero }) {
           />
         ))}
       </div>
-      <div className="grid grid-cols-1 justify-items-center my-20">
-        <div className="block w-3/5">
-          <div className="grid-cols-2 grid">
-            <div className="col-span-1"></div>
-            <div className="col-span-1">
-              <div className="w-96 h-8 block float-left">
-                <OrangeButton text="Try Imonggo for FREE!" url="/signup-now" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
+      <SignUpFooter />
       <FooterBar />
     </div>
   );

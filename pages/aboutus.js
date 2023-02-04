@@ -8,9 +8,9 @@ import SignUpFooter from "components/core/SignUpFooter";
 
 export default function AboutUs() {
   return (
-    <div>
+    <div className="font-sans">
       <NavBar />
-      <Video />
+
       <HeaderContent />
       <CustomerStories />
       <ContentList />

@@ -4,7 +4,7 @@ import { PhoneIcon } from "@heroicons/react/outline";
 
 const FooterBar = ({ text }) => (
   <div className="h-full bgblue pb-8">
-    <div className="grid grid-cols-3 pt-8 mx-24 gap-4">
+    <div className="grid grid-cols-3 pt-4 lg:pt-8 mx-4 lg:mx-24 gap-2 lg:gap-4">
       <div className="col-span-1">
         <div className="flex-shrink-0 flex items-center pt-1">
           <Link href="/">
@@ -18,30 +18,31 @@ const FooterBar = ({ text }) => (
             </div>
           </Link>
         </div>
-        <div className="font-base text-md text-white w-2/3 pt-2">
+        <div className="font-base text-xs lg:text-lg text-white w-2/3 pt-2">
           Imonggo celebrates its 12th year of offering a free and easy-to-use
           POS.
         </div>
-        <div className="font-base text-md text-white w-2/3 pt-2">
-          Sign-up now and watch-out for exciting announcements.
-        </div>
       </div>
       <div className="col-span-1">
-        <div className="font-bold text-white">Contact Us</div>
+        <div className="pt-10 lg:pt-0 font-bold text-xs lg:text-lg text-white">
+          Contact Us
+        </div>
         <div className="pt-2 grid grid-cols-10">
-          <PhoneIcon className="h-6 text-white col-span-1 " />
-          <div className="text-white font-thin text-sm col-span-9">
+          <PhoneIcon className="h-0 lg:h-6 text-white col-span-1 " />
+          <div className="text-white font-thin text-xs lg:text-sm col-span-9">
             +1 (833) 466-6446
           </div>
         </div>
-        <div className="font-bold text-white pt-8">Follow Us</div>
+        <div className="font-bold text-white text-xs lg:text-lg pt-4 lg:pt-8">
+          Follow Us
+        </div>
         <div className="text-white pt-2 flex">
           <div className="cursor-pointer">
             <Link href="https://www.facebook.com/Imonggo/">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 320 512"
-                className="w-5 h-5 mr-6"
+                className="w-5 h-5 mr-2 lg:mr-6"
               >
                 <path
                   fill="currentColor"
@@ -55,7 +56,7 @@ const FooterBar = ({ text }) => (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"
-                className="w-5 h-5 mr-6"
+                className="w-5 h-5 mr-2 lg:mr-6"
               >
                 <path
                   fill="currentColor"
@@ -69,7 +70,7 @@ const FooterBar = ({ text }) => (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
-                className="w-5 h-5 mr-6"
+                className="w-5 h-5 mr-2 lg:mr-6"
               >
                 <path
                   fill="currentColor"
@@ -80,7 +81,7 @@ const FooterBar = ({ text }) => (
           </div>
         </div>
       </div>
-      <div className="col-span-1 text-white font-medium tracking-wide text-lg">
+      <div className="pl-4 lg:pl-0 pt-10 lg:pt-0 col-span-1 text-white font-medium tracking-wide text-xs lg:text-lg">
         <div className="pb-2 cursor-pointer">
           <Link href="/features">Features</Link>
         </div>
