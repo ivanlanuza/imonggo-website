@@ -183,6 +183,19 @@ export default function NavBar() {
               >
                 Help Center
               </Disclosure.Button>
+
+              <Disclosure.Button
+                as="a"
+                href="https://secure.imonggo.com/login"
+                className={`  block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6
+                ${
+                  asPath === "/login"
+                    ? "bg-indigo-50 border-blue-900 text-blue-900"
+                    : "border-transparent text-orange-500"
+                }`}
+              >
+                Log In to Imonggo
+              </Disclosure.Button>
             </div>
           </Disclosure.Panel>
         </>

@@ -70,56 +70,58 @@ const quadrantonline = {
 };
 
 const ContentFeatures = ({}) => (
-  <div className="mb-16">
-    <div className="grid grid-cols-2 gap-8 mx-32 mt-16">
-      <div className="col-span-1">
-        <ContentText
-          title={contentselling.title}
-          text={contentselling.text}
-          url={contentselling.url}
-        />
+  <div>
+    <div className="mb-16 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-8 mx-2 md:mx-16 lg:mx-32 mt-8 md:mt-16">
+        <div className="col-span-1">
+          <ContentText
+            title={contentselling.title}
+            text={contentselling.text}
+            url={contentselling.url}
+          />
+        </div>
+        <div className="col-span-1">
+          <ContentQuadrant content={quadrantselling} />
+        </div>
       </div>
-      <div className="col-span-1">
-        <ContentQuadrant content={quadrantselling} />
-      </div>
-    </div>
 
-    <div className="grid grid-cols-2 gap-8 mx-32 mt-24">
-      <div className="col-span-1 pl-32">
-        <ContentQuadrant content={quadrantinventory} />
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-8 mx-2 md:mx-16 lg:mx-32 mt-24">
+        <div className="col-span-1 md:-ml-6 lg:-ml-36 xl:ml-0 pl-2 lg:pl-32 order-last md:order-first">
+          <ContentQuadrant content={quadrantinventory} />
+        </div>
+        <div className="col-span-1 order-first md:order-last md:pl-6 ">
+          <ContentText
+            title={contentinventory.title}
+            text={contentinventory.text}
+            url={contentinventory.url}
+          />
+        </div>
       </div>
-      <div className="col-span-1">
-        <ContentText
-          title={contentinventory.title}
-          text={contentinventory.text}
-          url={contentinventory.url}
-        />
-      </div>
-    </div>
 
-    <div className="grid grid-cols-2 gap-8 mx-32 mt-24">
-      <div className="col-span-1">
-        <ContentText
-          title={contentreports.title}
-          text={contentreports.text}
-          url={contentreports.url}
-        />
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-8 mx-2 md:mx-16 lg:mx-32 mt-24">
+        <div className="col-span-1">
+          <ContentText
+            title={contentreports.title}
+            text={contentreports.text}
+            url={contentreports.url}
+          />
+        </div>
+        <div className="col-span-1">
+          <ContentQuadrant content={quadrantreport} />
+        </div>
       </div>
-      <div className="col-span-1">
-        <ContentQuadrant content={quadrantreport} />
-      </div>
-    </div>
 
-    <div className="grid grid-cols-2 gap-8 mx-32 mt-24">
-      <div className="col-span-1 pl-32">
-        <ContentQuadrant content={quadrantonline} />
-      </div>
-      <div className="col-span-1">
-        <ContentText
-          title={contentonline.title}
-          text={contentonline.text}
-          url={contentonline.url}
-        />
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-8 mx-2 md:mx-16 lg:mx-32 mt-24">
+        <div className="col-span-1 pl-2 md:-ml-6 lg:-ml-36 xl:ml-0 lg:pl-32  order-last md:order-first">
+          <ContentQuadrant content={quadrantonline} />
+        </div>
+        <div className="col-span-1  md:order-last order-first  md:pl-6 ">
+          <ContentText
+            title={contentonline.title}
+            text={contentonline.text}
+            url={contentonline.url}
+          />
+        </div>
       </div>
     </div>
   </div>

@@ -6,7 +6,7 @@ const ContentChoosePlan = ({}) => (
     <div className="text-4xl font-bold textblue">Choose your Plan</div>
     <div className="grid grid-cols-3 gap-2 lg:gap-4 mt-4 lg:mt-16 mx-2 lg:mx-48">
       <div className="col-span-1 border border-gray-800 rounded-md px-1 lg:px-0 pt-4">
-        <div className="font-medium text-4xl">Free Plan</div>
+        <div className="font-medium text-xl md:text-4xl">Free Plan</div>
         <div className="font-bold text-6xl pt-4">$0</div>
         <div className="font-base text-lg pb-8">forever</div>
         <div className="lg:ml-6">
@@ -22,7 +22,7 @@ const ContentChoosePlan = ({}) => (
         </div>
       </div>
       <div className="col-span-2 border border-gray-800 rounded-md px-1 lg:px-0 t-4">
-        <div className="font-medium text-4xl pt-4">Premium Plan</div>
+        <div className="font-medium text-xl md:text-4xl pt-4">Premium Plan</div>
         <div className="font-bold text-6xl pt-4">$30</div>
         <div className="font-base text-lg pb-8">monthly per branch</div>
         <div className="grid grid-cols-2  mx-0 lg:mx-8">

@@ -10,7 +10,7 @@ export default function Features() {
       <NavBar />
       <HeroFeatures />
       <ContentFeatures />
-      <SignUpFooter />
+      {/*<SignUpFooter />*/}
       <FooterBar />
     </div>
   );
