@@ -2,8 +2,8 @@ import FooterBar from "components/core/FooterBar";
 
 export default function Pricing() {
   return (
-    <div>
-      <FooterBar />
+    <div className="font-sans h-screen grid place-content-center">
+      redirecting to imonggo app server...
     </div>
   );
 }

@@ -81,7 +81,7 @@ export default function NavBar() {
                 </div>
               </div>
               <div className="flex items-center py-3 ">
-                <div className="hidden lg:flex">
+                <div className="hidden xl:flex">
                   <Link href="https://secure.imonggo.com/login">
                     <div className="flex-shrink-0">
                       <button
@@ -103,7 +103,7 @@ export default function NavBar() {
                     </div>
                   </Link>
                 </div>
-                <div className="-ml-2 -mr-2 flex items-center lg:hidden">
+                <div className="-ml-2 -mr-2 flex items-center xl:hidden">
                   {/* Mobile menu button */}
                   <Disclosure.Button className="ml-8 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-900">
                     <span className="sr-only">Open main menu</span>
@@ -119,7 +119,7 @@ export default function NavBar() {
           </div>
 
           {/* Small Menu */}
-          <Disclosure.Panel className="lg:hidden">
+          <Disclosure.Panel className="xl:hidden">
             <div className="pt-2 pb-3 space-y-1">
               <Disclosure.Button
                 as="a"

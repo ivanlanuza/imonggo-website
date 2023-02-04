@@ -7,8 +7,7 @@ export default function Home() {
   return (
     <div className="bg-white font-sans">
       <NavBar />
-      <div className="grid place-content-center h-[420px] items-center ">
-        <AdjustmentsIcon className="h-20 textorange" />
+      <div className="grid place-content-center h-screen mx-8 lg:h-[420px] items-center text-center ">
         <div className="textblue text-2xl font-black">
           Sorry! Help Center will be back soon. We are upgrading for a better
           experience.

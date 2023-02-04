@@ -5,7 +5,7 @@ const HeroFeatures = ({}) => (
   <div className="relative font-sans">
     <div className="bg-[url('/images/features/herofeatures.png')] bg-cover ">
       <div className="h-max ">
-        <div className="relative pl-4 lg:pl-24 py-6 md:py-16 lg:py-20 w-3/5 lg:w-3/8  xl:h-[600px] h-[280px] md:h-[480px]">
+        <div className="relative pl-4 lg:pl-24 py-6 md:py-16 lg:py-20 w-4/5 lg:w-3/8  xl:h-[600px] h-[280px] md:h-[480px]">
           <div className="text-left font-bold lg:text-6xl text-xl md:text-4xl lg:tracking-wide tracking-tight">
             <span className=" text-white ">POS for family businesses</span>
           </div>
