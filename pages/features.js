@@ -1,6 +1,7 @@
 import NavBar from "components/core/NavBar";
 import HeroFeatures from "components/features/HeroFeatures";
 import ContentFeatures from "components/features/ContentFeatures";
+import SignUpFooter from "components/core/SignUpFooter";
 import FooterBar from "components/core/FooterBar";
 
 export default function Features() {
@@ -9,6 +10,7 @@ export default function Features() {
       <NavBar />
       <HeroFeatures />
       <ContentFeatures />
+      <SignUpFooter />
       <FooterBar />
     </div>
   );

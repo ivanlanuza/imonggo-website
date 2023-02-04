@@ -1,18 +1,20 @@
 import BottomTiltWhite from "components/core/BottomTiltWhite";
 import Link from "next/link";
 
-const HeroFeatures = ({}) => (
+const SubFeaturesHero = ({ hero }) => (
   <div className="relative font-sans">
-    <div className="bg-[url('/images/features/herofeatures.png')] bg-cover ">
+    <div
+      className="bg-cover "
+      style={{ backgroundImage: `url(${hero.image})` }}
+    >
       <div className="h-max ">
-        <div className="relative pl-24 py-16 md:py-32 lg:py-36 lg:w-3/8 w-2/5 xl:h-[640px] h-[340px] md:h-[480px]">
+        <div className="relative pl-24 py-16 md:py-32 lg:py-48 lg:w-3/8 w-3/6 xl:h-[640px] h-[340px] md:h-[480px]">
           <div className="text-left font-bold lg:text-6xl text-xl md:text-4xl lg:tracking-wide tracking-tight">
-            <span className=" text-white ">POS for family businesses</span>
+            <span className=" textblue ">{hero.title}</span>
           </div>
           <div className="lg:mt-8 mt-2 text-left  w-3/4">
-            <span className="mt-6 max-w-lg mx-auto text-left md:text-xl text-xs text-white sm:max-w-3xl bg-opacity-60 leading-tight font-base py-1">
-              Sell on-site or online, track inventory, access real-time reports,
-              and check your business performance - all with Imonggo.
+            <span className="mt-6 max-w-lg mx-auto text-left md:text-lg text-xs textblue sm:max-w-3xl bg-opacity-60 leading-tight font-base py-1">
+              {hero.text}
             </span>
           </div>
           <Link href="/signup-now">
@@ -32,4 +34,4 @@ const HeroFeatures = ({}) => (
   </div>
 );
 
-export default HeroFeatures;
+export default SubFeaturesHero;

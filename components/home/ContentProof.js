@@ -28,7 +28,7 @@ const ContentProof = ({}) => (
               />
             </div>
             <div className="font-black pt-2 text-lg col-span-4 pl-4 text-left">
-              50,000+ businesses helped in different cities worldwide.
+              50,000+ businesses helped in 170 countries worldwide.
             </div>
           </div>
         </div>

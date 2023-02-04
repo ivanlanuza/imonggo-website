@@ -10,15 +10,15 @@ const ContentChoosePlan = ({}) => (
         <div className="font-bold text-6xl pt-4">$0</div>
         <div className="font-base text-lg pb-8">forever</div>
         <div className="ml-6">
-          <FeatureCheck text="Limited to 1 Branch" />
-          <FeatureCheck text="1 user" />
-          <FeatureCheck text="Max 100 Products" />
-          <FeatureCheck text="100 transactions per month" />
+          <FeatureCheck text="1 Branch" />
+          <FeatureCheck text="1 User" />
+          <FeatureCheck text="500 Products" />
+          <FeatureCheck text="500 Transactions per month" />
           <FeatureCheck text="Inventory Management" />
           <FeatureCheck text="Sales Analysis" />
         </div>
         <div className="mx-8 mb-6 mt-6">
-          <OrangeButton text="Sign Up for Free" url="/signup" />
+          <OrangeButton text="Sign Up for Free" url="/signup-now" />
         </div>
       </div>
       <div className="col-span-2 border border-gray-800 rounded-md pt-4">
@@ -35,14 +35,14 @@ const ContentChoosePlan = ({}) => (
             <FeatureCheck text="Built-in E-commerce Site" />
           </div>
           <div className="col-span-1">
-            <FeatureCheck text="Accept Credit Cards" />
+            <FeatureCheck text="Credit Cards Processing (US)" />
             <FeatureCheck text="Inventory Management" />
             <FeatureCheck text="Sales Analysis" />
             <FeatureCheck text="Chat Support" />
           </div>
         </div>
         <div className="mx-48 mb-6 mt-4">
-          <OrangeButton text="Sign Up Now" url="/signup" />
+          <OrangeButton text="Get Premium" url="/signup-now" />
         </div>
       </div>
     </div>

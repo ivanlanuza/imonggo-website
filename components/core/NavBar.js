@@ -81,7 +81,7 @@ export default function NavBar() {
                 </div>
               </div>
               <div className="flex items-center py-3">
-                <Link href="/login">
+                <Link href="https://secure.imonggo.com/login">
                   <div className="flex-shrink-0">
                     <button
                       type="button"
@@ -91,7 +91,7 @@ export default function NavBar() {
                     </button>
                   </div>
                 </Link>
-                <Link href="/signup">
+                <Link href="/signup-now">
                   <div className="flex-shrink-0">
                     <button
                       type="button"

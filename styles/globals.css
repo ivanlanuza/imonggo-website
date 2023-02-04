@@ -42,6 +42,10 @@ a {
   color: #0B224B;
 }
 
+.borderblue {
+  border-color: #0B224B;
+}
+
 .textorange {
   color: #E65716;
 }

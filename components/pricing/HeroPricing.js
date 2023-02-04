@@ -1,18 +1,20 @@
 import BottomTiltWhite from "components/core/BottomTiltWhite";
 import Link from "next/link";
 
-const HeroFeatures = ({}) => (
+const HeroPricing = ({}) => (
   <div className="relative font-sans">
-    <div className="bg-[url('/images/features/herofeatures.png')] bg-cover ">
+    <div className="bg-[url('/images/pricing/heropricing.png')] bg-cover ">
       <div className="h-max ">
-        <div className="relative pl-24 py-16 md:py-32 lg:py-36 lg:w-3/8 w-2/5 xl:h-[640px] h-[340px] md:h-[480px]">
+        <div className="relative pl-24 py-16 pr-4 md:py-32 lg:py-36 lg:w-3/8 w-2/5 xl:h-[640px] h-[340px] md:h-[480px]">
           <div className="text-left font-bold lg:text-6xl text-xl md:text-4xl lg:tracking-wide tracking-tight">
-            <span className=" text-white ">POS for family businesses</span>
+            <span className=" textblue ">
+              Choose a plan that's right for you
+            </span>
           </div>
-          <div className="lg:mt-8 mt-2 text-left  w-3/4">
+          <div className="lg:mt-8 mt-2 text-left ">
             <span className="mt-6 max-w-lg mx-auto text-left md:text-xl text-xs text-white sm:max-w-3xl bg-opacity-60 leading-tight font-base py-1">
-              Sell on-site or online, track inventory, access real-time reports,
-              and check your business performance - all with Imonggo.
+              Sign up now for FREE or subscribe to Premium for only $30/month or
+              $330/year.
             </span>
           </div>
           <Link href="/signup-now">
@@ -32,4 +34,4 @@ const HeroFeatures = ({}) => (
   </div>
 );
 
-export default HeroFeatures;
+export default HeroPricing;
