@@ -4,7 +4,7 @@ import Link from "next/link";
 const SubFeaturesHero = ({ hero }) => (
   <div className="relative font-sans">
     <div
-      className="bg-cover "
+      className="bg-cover bg-blend-overlay bg-white bg-opacity-60"
       style={{ backgroundImage: `url(${hero.image})` }}
     >
       <div className="h-max ">
