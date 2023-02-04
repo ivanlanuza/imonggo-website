@@ -8,7 +8,7 @@ const HeroPricing = ({}) => (
         <div className="relative pl-24 py-16 pr-4 md:py-32 lg:py-36 lg:w-3/8 w-2/5 xl:h-[640px] h-[340px] md:h-[480px]">
           <div className="text-left font-bold lg:text-6xl text-xl md:text-4xl lg:tracking-wide tracking-tight">
             <span className=" textblue ">
-              Choose a plan that's right for you
+              Choose a plan that&apos;s right for you
             </span>
           </div>
           <div className="lg:mt-8 mt-2 text-left ">
