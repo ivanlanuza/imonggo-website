@@ -87,7 +87,7 @@ const paragraphs = [
     text: "'But the best thing is – it’s so easy. Everyone can do it. We have employees from 15 years of age that use Imonggo without any problems.'",
   },
   {
-    id: 20,
+    id: 21,
     text: "'Imonggo has been a contributor to making everyday life in Terrariet very easy and in making the zoo a success. We are more than pleased with our choice of POS.'",
   },
 ];

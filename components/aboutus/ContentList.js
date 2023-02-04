@@ -54,7 +54,7 @@ const articlelist = [
 ];
 
 const ContentList = ({}) => (
-  <div className=" grid grid-cols-1 md:grid-cols-3 gap-8 px-4 lg:px-32 overflow-hidden mb-16">
+  <div className=" grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 px-4 lg:px-32 overflow-hidden mb-16">
     {articlelist.map((item) => (
       <Link href={item.href} key={item.id}>
         <div className="bg-white border-2 shadow-lg  cursor-pointer borderblue rounded-md mt-8 h-[420px]">
@@ -66,7 +66,7 @@ const ContentList = ({}) => (
             <div className="text-blue-900 tracking-wide text-lg md:text-sm xl:text-xl font-black">
               {item.title}
             </div>
-            <div className="text-gray-500 tracking-wide text-xs font-base pt-4 pr-6 block md:hidden lg:block">
+            <div className="text-gray-500 tracking-wide text-xs font-base pt-4 pr-6 block ">
               {item.blurb}
             </div>
           </div>
