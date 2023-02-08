@@ -8,22 +8,8 @@ function MyApp({ Component, pageProps }) {
 
   useEffect(() => {
     window.intercomSettings = {
+      api_base: "https://api-iam.intercom.io",
       app_id: "w09kh1lv",
-      name: "<%= @current_user.name %>", // Full name
-      email: "<%= @current_user.email %>", // Email address
-      user_hash:
-        "<%= OpenSSL::HMAC.hexdigest('sha256', 'vNPLBMEdCqQZ8eNzTzEFanz_S4DTs1Y9GAUWEzEv', @current_user.email) %>",
-      account_name: "<%= @current_account.name%>",
-      subscription_type: "<%= @current_account.subscription_type%>",
-      branch_count: " <%= @current_account.regular_branches.count%>",
-      products_count: "<%= @current_account.products_count %>",
-      invoices_count: "<%= @current_account.invoices_count%>",
-      user_role: "<%= @current_user.role.name%>",
-      cluster_id: "<%=CONFIG['cluster_id']%>",
-      created_at: "<%= @current_account.created_at.to_i%>",
-      trial_start_date: "<%= trial_start_date%>",
-      premium_start_date: "<%=@current_account.premium_start_date%>",
-      trial_expired_at: "<%=@current_account.trial_expired_at%>",
     };
 
     // Intercom code snippet
@@ -32,7 +18,7 @@ function MyApp({ Component, pageProps }) {
       var ic = w.Intercom;
       if (typeof ic === "function") {
         ic("reattach_activator");
-        ic("update", intercomSettings);
+        ic("update", w.intercomSettings);
       } else {
         var d = document;
         var i = function () {
@@ -43,15 +29,17 @@ function MyApp({ Component, pageProps }) {
           i.q.push(args);
         };
         w.Intercom = i;
-        function l() {
+        var l = function () {
           var s = d.createElement("script");
           s.type = "text/javascript";
           s.async = true;
           s.src = "https://widget.intercom.io/widget/w09kh1lv";
           var x = d.getElementsByTagName("script")[0];
           x.parentNode.insertBefore(s, x);
-        }
-        if (w.attachEvent) {
+        };
+        if (document.readyState === "complete") {
+          l();
+        } else if (w.attachEvent) {
           w.attachEvent("onload", l);
         } else {
           w.addEventListener("load", l, false);
