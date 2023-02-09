@@ -14,7 +14,7 @@ const contentinventory = {
 };
 
 const contentreports = {
-  title: "Easily access your reports",
+  title: "Easily access your reports ",
   text: "Your data is stored in the cloud - which means you can access your data anytime, anywhere using a normal computer or via Imonggo's Dashboard mobile apps.",
   url: "/features/accessreports",
 };
