@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 const ContentEasyJoin = ({}) => (
-  <div className="block items-center font-sans text-center mt-6 lg:mb-28 ">
+  <div className="block items-center font-sans text-center mt-6 lg:mb-28 textblue">
     <div className="text-xl lg:text-4xl font-bold textblue">
       Very easy to get started!
     </div>
