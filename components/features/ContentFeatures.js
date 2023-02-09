@@ -14,7 +14,7 @@ const contentinventory = {
 };
 
 const contentreports = {
-  title: "Easily access your reports ",
+  title: "Easily access your reports",
   text: "Your data is stored in the cloud - which means you can access your data anytime, anywhere using a normal computer or via Imonggo's Dashboard mobile apps.",
   url: "/features/accessreports",
 };
@@ -72,7 +72,7 @@ const quadrantonline = {
 const ContentFeatures = ({}) => (
   <div>
     <div className="mb-16 ">
-      <div className="md:h-72 h-56 grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-8 mx-2 md:mx-16 lg:mx-32 mt-8 md:mt-16">
+      <div className="md:h-72 h-56  grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-8 mx-2 md:mx-16 lg:mx-32 mt-6 md:mt-24">
         <div className="col-span-1 relative">
           <div className="absolute top-0 right-0">
             <ContentText
@@ -82,7 +82,7 @@ const ContentFeatures = ({}) => (
             />
           </div>
         </div>
-        <div className="col-span-1 relative md:order-last order-first">
+        <div className="col-span-1 relative">
           <div className="absolute top-0 left-0">
             <ContentQuadrant content={quadrantselling} />
           </div>
