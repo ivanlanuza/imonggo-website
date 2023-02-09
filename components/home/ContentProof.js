@@ -3,9 +3,9 @@ import Image from "next/image";
 const ContentProof = ({}) => (
   <div className="relative">
     <div className=" font-sans  mt-12 bg-orange-50 py-4 lg:py-12">
-      <div className=" grid grid-cols-2  mx-2 lg:mx-0 gap-4ç lg:gap-0">
+      <div className=" grid grid-cols-2  mx-2 lg:mx-0 gap-4 lg:gap-0">
         <div className="col-span-1 text-center">
-          <div className="inline-flex place-items-center  ">
+          <div className="inline-flex place-items-center">
             <div className="">
               <Image
                 src="/images/home/check-12-years.png"

@@ -1,8 +1,9 @@
 import OneQuarter from "./OneQuarter";
+import OrangeButton from "components/core/OrangeButton";
 
 const ContentQuadrant = ({ content }) => (
   <div className="w-80 mx-6">
-    <div className="grid-cols-2 gap-2 lg:gap-8 grid lg:place-items-center">
+    <div className="hidden md:grid grid-cols-2 gap-2 lg:gap-8 lg:place-items-center">
       <div className="col-span-1">
         <div>
           <OneQuarter text={content.q2} iconvalue={content.iconvalueq2} />

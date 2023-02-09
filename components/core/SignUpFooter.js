@@ -9,9 +9,9 @@ const SignUpFooter = () => (
   <div className="relative">
     <TopTiltWhite />
 
-    <div className="h-[280px] lg:h-[445px] bg-gray-100 font-sans">
+    <div className="h-[310px] lg:h-[445px] bg-gray-100 font-sans">
       <div className="grid grid-cols-2 place-content-center items-center">
-        <div className="col-span-1 h-[280px] lg:h-[406px] lg:mt-10  grid place-content-start items-center bg-[url('/images/core/signupfooterlandscape.jpg')] bg-cover "></div>
+        <div className="col-span-1 h-[310px] lg:h-[406px] lg:mt-10  grid place-content-start items-center bg-[url('/images/core/signupfooterlandscape.jpg')] bg-cover "></div>
         <div className="mt-12 lg:mt-0 col-span-1 pl-4 lg:pl-16">
           <div className="textorange font-bold text-xl lg:text-4xl pb-4">
             Easy-to-use POS
