@@ -6,7 +6,7 @@ import FooterBar from "components/core/FooterBar";
 
 export default function Pricing() {
   return (
-    <div className="font-sans">
+    <div className="font-sans bg-white">
       <NavBar />
       <HeroPricing />
       <FreeTier />

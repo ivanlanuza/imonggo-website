@@ -71,7 +71,7 @@ const quadrantonline = {
 
 const ContentFeatures = ({}) => (
   <div>
-    <div className="mb-16 ">
+    <div className="mb-16 bg-white ">
       <div className="md:h-72 h-56  grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-8 mx-2 md:mx-16 lg:mx-32 mt-6 md:mt-24">
         <div className="col-span-1 relative">
           <div className="absolute top-0 right-0">

@@ -8,7 +8,7 @@ import SignUpFooter from "components/core/SignUpFooter";
 
 export default function AboutUs() {
   return (
-    <div className="font-sans">
+    <div className="font-sans bg-white">
       <NavBar />
 
       <HeaderContent />

@@ -8,7 +8,7 @@ import SignUpFooter from "components/core/SignUpFooter";
 
 export default function SubFeaturesPage({ data, hero }) {
   return (
-    <div className="font-sans">
+    <div className="font-sans bg-white">
       <NavBar />
       <SubFeaturesHero hero={hero} />
       <div className="my-20">
