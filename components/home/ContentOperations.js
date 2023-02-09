@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 const ContentOperations = ({}) => (
-  <div className="block items-center font-sans text-center mt-6">
+  <div className="block items-center font-sans text-center mt-6 textblue">
     <div className="block lg:hidden text-center font-bold text-lg align-top mt-16 mb-6">
       Imonggo is optimized to make your operations as simple as possible!
     </div>
