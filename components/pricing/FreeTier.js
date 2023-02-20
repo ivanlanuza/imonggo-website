@@ -43,7 +43,10 @@ const FreeTier = ({}) => (
         <div className="grid grid-cols-2 md:grid-cols-3 items-center place-content-center mt-8">
           <div className="col-span-2 hidden md:block"></div>
           <div className="col-span-1 text-right mt-0">
-            <OrangeButton text="FREE Sign-up" url="/signup-now" />
+            <OrangeButton
+              text="FREE Sign-up"
+              url="https://secure.imonggo.com/signup"
+            />
           </div>
         </div>
       </div>

@@ -3,6 +3,9 @@ import HeroHome from "components/home/HeroHome";
 import ContentEasyJoin from "components/home/ContentEasyJoin";
 import ContentOperations from "components/home/ContentOperations";
 import ContentProof from "components/home/ContentProof";
+import ContentFeatures from "components/features/ContentFeatures";
+import SignUpFooter from "components/core/SignUpFooter";
+
 import ContentChoosePlan from "components/home/ContentChoosePlan";
 import FooterBar from "components/core/FooterBar";
 
@@ -14,7 +17,8 @@ export default function Home() {
       <ContentEasyJoin />
       <ContentOperations />
       <ContentProof />
-      <ContentChoosePlan />
+      <ContentFeatures />
+      <SignUpFooter />
       <FooterBar />
     </div>
   );

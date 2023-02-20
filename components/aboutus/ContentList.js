@@ -54,12 +54,12 @@ const articlelist = [
 ];
 
 const ContentList = ({}) => (
-  <div className=" grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 px-4 lg:px-32 overflow-hidden mb-16">
+  <div className=" grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 px-4 lg:px-32 overflow-hidden mb-16 pb-4">
     {articlelist.map((item) => (
       <Link href={item.href} key={item.id}>
-        <div className="bg-white border-2 shadow-lg  cursor-pointer borderblue rounded-md mt-8 h-[420px]">
+        <div className="bg-white border border-white shadow-lg  cursor-pointer  rounded-md mt-8 h-[420px]">
           <div
-            className="h-3/5 bg-cover rounded-t-sm "
+            className="h-3/5 bg-cover rounded-t-md "
             style={{ backgroundImage: `url(/images/aboutus/${item.image})` }}
           ></div>
           <div className="pt-4 px-2">

@@ -16,7 +16,7 @@ const HeroFeatures = ({}) => (
             </span>
           </div>
           <div className="flex">
-            <Link href="/signup-now">
+            <Link href="https://secure.imonggo.com/signup">
               <div className="flex-shrink-0">
                 <button
                   type="button"

@@ -18,7 +18,10 @@ const ContentChoosePlan = ({}) => (
           <FeatureCheck text="Sales Analysis" />
         </div>
         <div className=" mx-0 lg:mx-8 mb-6 mt-6">
-          <OrangeButton text="Sign Up" url="/signup-now" />
+          <OrangeButton
+            text="Sign Up"
+            url="https://secure.imonggo.com/signup"
+          />
         </div>
       </div>
       <div className="col-span-2 border border-gray-800 rounded-md px-1 lg:px-0 t-4">
@@ -42,7 +45,10 @@ const ContentChoosePlan = ({}) => (
           </div>
         </div>
         <div className="xl:mx-48 mx-1 lg:mx-8  mb-6 mt-4">
-          <OrangeButton text="Get Premium" url="/signup-now" />
+          <OrangeButton
+            text="Get Premium"
+            url="https://secure.imonggo.com/signup"
+          />
         </div>
       </div>
     </div>

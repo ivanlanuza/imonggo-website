@@ -36,6 +36,7 @@ export default function NavBar() {
                   </Link>
                 </div>
                 <div className="hidden lg:ml-36 lg:flex lg:space-x-12 text-sm font-regular tracking-wide">
+                  {/*
                   <Link href="/features">
                     <span
                       className={`cursor-pointer inline-flex items-center px-1 pt-1 
@@ -44,6 +45,17 @@ export default function NavBar() {
                      }`}
                     >
                       Features
+                    </span>
+                  </Link>
+                  */}
+                  <Link href="/aboutus">
+                    <span
+                      className={`cursor-pointer inline-flex items-center px-1 pt-1 
+                     ${
+                       asPath === "/aboutus" ? "text-orange-500" : "text-white"
+                     }`}
+                    >
+                      About Us
                     </span>
                   </Link>
                   <Link href="/pricing">
@@ -56,17 +68,19 @@ export default function NavBar() {
                       Pricing
                     </span>
                   </Link>
-                  <Link href="/aboutus">
+
+                  <Link href="/smeblog">
                     <span
                       className={`cursor-pointer inline-flex items-center px-1 pt-1 
                      ${
-                       asPath === "/aboutus" ? "text-orange-500" : "text-white"
+                       asPath === "/smeblog" ? "text-orange-500" : "text-white"
                      }`}
                     >
-                      About Us
+                      SME Blog
                     </span>
                   </Link>
-                  <Link href="/helpcenter">
+
+                  <Link href="https://imonggo.gitbook.io/imonggo-help-center/">
                     <span
                       className={`cursor-pointer inline-flex items-center px-1 pt-1 
                      ${
@@ -75,7 +89,7 @@ export default function NavBar() {
                          : "text-white"
                      }`}
                     >
-                      Help Center
+                      User Manual
                     </span>
                   </Link>
                 </div>
@@ -92,7 +106,7 @@ export default function NavBar() {
                       </button>
                     </div>
                   </Link>
-                  <Link href="/signup-now">
+                  <Link href="https://secure.imonggo.com/signup">
                     <div className="flex-shrink-0">
                       <button
                         type="button"
@@ -133,6 +147,7 @@ export default function NavBar() {
               >
                 Home
               </Disclosure.Button>
+              {/*
               <Disclosure.Button
                 as="a"
                 href="/features"
@@ -145,19 +160,7 @@ export default function NavBar() {
               >
                 Features
               </Disclosure.Button>
-              <Disclosure.Button
-                as="a"
-                href="/pricing"
-                className={`  block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6
-                ${
-                  asPath === "/pricing"
-                    ? "bg-indigo-50 border-blue-900 text-blue-900"
-                    : "border-transparent text-gray-500"
-                }`}
-              >
-                Pricing
-              </Disclosure.Button>
-
+              */}
               <Disclosure.Button
                 as="a"
                 href="/aboutus"
@@ -173,7 +176,33 @@ export default function NavBar() {
 
               <Disclosure.Button
                 as="a"
-                href="/helpcenter"
+                href="/pricing"
+                className={`  block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6
+                ${
+                  asPath === "/pricing"
+                    ? "bg-indigo-50 border-blue-900 text-blue-900"
+                    : "border-transparent text-gray-500"
+                }`}
+              >
+                Pricing
+              </Disclosure.Button>
+
+              <Disclosure.Button
+                as="a"
+                href="/smeblog"
+                className={`  block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6
+                ${
+                  asPath === "/smeblog"
+                    ? "bg-indigo-50 border-blue-900 text-blue-900"
+                    : "border-transparent text-gray-500"
+                }`}
+              >
+                SME Blog
+              </Disclosure.Button>
+
+              <Disclosure.Button
+                as="a"
+                href="https://imonggo.gitbook.io/imonggo-help-center/"
                 className={`  block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6
                 ${
                   asPath === "/helpcenter"
@@ -181,7 +210,7 @@ export default function NavBar() {
                     : "border-transparent text-gray-500"
                 }`}
               >
-                Help Center
+                User Manual
               </Disclosure.Button>
 
               <Disclosure.Button

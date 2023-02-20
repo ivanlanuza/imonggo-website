@@ -8,17 +8,16 @@ const HeroHome = ({}) => (
         <div className="relative pl-4 lg:pl-24 py-6 md:py-16 lg:py-20 w-3/5 lg:w-3/8  xl:h-[600px] h-[280px] md:h-[480px]">
           <div className="text-left font-bold lg:text-6xl text-xl md:text-4xl lg:tracking-wide tracking-tight">
             <span className=" text-white ">
-              Easy-to-use POS for your business
+              Simple and Powerful Point of Sale
             </span>
           </div>
           <div className="lg:mt-8 mt-2 text-left lg:w-3/4">
             <span className="mt-6 max-w-lg mx-auto text-left md:text-xl text-xs text-white sm:max-w-3xl bg-opacity-60 leading-tight font-base py-1">
-              Point of sale, inventory, invoices, and more for efficient family
-              businesses.
+              The secret weapon of budding retail enterpreneurs
             </span>
           </div>
           <div className="flex">
-            <Link href="/signup-now">
+            <Link href="https://secure.imonggo.com/signup">
               <div className="flex-shrink-0">
                 <button
                   type="button"
