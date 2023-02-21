@@ -83,16 +83,18 @@ const FooterBar = ({ text }) => (
       </div>
       <div className="pl-4 lg:pl-0 pt-10 lg:pt-0 col-span-1 text-white font-medium tracking-wide text-xs lg:text-lg">
         <div className="pb-2 cursor-pointer">
-          <Link href="/features">Features</Link>
+          <Link href="/aboutus">About Us</Link>
         </div>
         <div className="pb-2 cursor-pointer">
           <Link href="/pricing">Pricing</Link>
         </div>
         <div className="pb-2 cursor-pointer">
-          <Link href="/aboutus">About Us</Link>
+          <Link href="/smeblog">SME Blog</Link>
         </div>
         <div className="cursor-pointer">
-          <Link href="/helpcenter">Help Center</Link>
+          <Link href="https://imonggo.gitbook.io/imonggo-help-center/">
+            User Manual
+          </Link>
         </div>
       </div>
     </div>
