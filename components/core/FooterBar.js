@@ -52,7 +52,7 @@ const FooterBar = ({ text }) => (
             </Link>
           </div>
           <div className="cursor-pointer">
-            <Link href="https://twitter.com/imonggo">
+            <Link href="https://www.instagram.com/imonggo/">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"
@@ -66,7 +66,7 @@ const FooterBar = ({ text }) => (
             </Link>
           </div>
           <div className="cursor-pointer">
-            <Link href="https://www.instagram.com/imonggo/">
+            <Link href="https://twitter.com/imonggo">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
