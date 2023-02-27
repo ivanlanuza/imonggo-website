@@ -17,7 +17,7 @@ const HeroHome = ({}) => (
             </span>
           </div>
           <div className="flex">
-            <Link href="https://secure.imonggo.com/signup">
+            <Link href="https://secure.imonggo.com/signup-now">
               <div className="flex-shrink-0">
                 <button
                   type="button"

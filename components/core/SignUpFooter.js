@@ -46,7 +46,7 @@ const SignUpFooter = () => (
           <div className="pt-2 mr-2 md:pt-4 lg:pt-8 md:w-2/5 h-12">
             <OrangeButton
               text="Free Sign-up"
-              url="https://secure.imonggo.com/signup"
+              url="https://secure.imonggo.com/signup-now"
             />
           </div>
         </div>

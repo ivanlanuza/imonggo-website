@@ -45,7 +45,7 @@ const FreeTier = ({}) => (
           <div className="col-span-1 text-right mt-0">
             <OrangeButton
               text="FREE Sign-up"
-              url="https://secure.imonggo.com/signup"
+              url="https://secure.imonggo.com/signup-now"
             />
           </div>
         </div>

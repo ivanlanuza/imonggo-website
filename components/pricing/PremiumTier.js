@@ -48,7 +48,7 @@ const PremiumTier = ({}) => (
           <div className="col-span-1 text-right mt-0">
             <BlueButton
               text="Get the Plan"
-              url="https://secure.imonggo.com/signup"
+              url="https://secure.imonggo.com/signup-now"
             />
           </div>
         </div>

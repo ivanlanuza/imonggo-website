@@ -87,7 +87,7 @@ export default function AuthEmail({}) {
     ) {
       setErrorFlag(true);
     } else {
-      await fetch("https://secure.imonggo.com/signup_from_landing", {
+      await fetch("https://secure.imonggo.com/signup-now_from_landing", {
         body: JSON.stringify({
           "account[email]": useremail,
           "account[user_password]": userpassword,

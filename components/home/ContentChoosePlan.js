@@ -20,7 +20,7 @@ const ContentChoosePlan = ({}) => (
         <div className=" mx-0 lg:mx-8 mb-6 mt-6">
           <OrangeButton
             text="Sign Up"
-            url="https://secure.imonggo.com/signup"
+            url="https://secure.imonggo.com/signup-now"
           />
         </div>
       </div>
@@ -47,7 +47,7 @@ const ContentChoosePlan = ({}) => (
         <div className="xl:mx-48 mx-1 lg:mx-8  mb-6 mt-4">
           <OrangeButton
             text="Get Premium"
-            url="https://secure.imonggo.com/signup"
+            url="https://secure.imonggo.com/signup-now"
           />
         </div>
       </div>
