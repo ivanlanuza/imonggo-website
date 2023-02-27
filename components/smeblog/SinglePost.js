@@ -19,6 +19,13 @@ const SinglePost = ({ title, paragraphs }) => (
               <div className="pt-2 font-medium tracking-wide text-lg text-gray-900">
                 {paragraph.subtitle}
               </div>
+              {paragraph.bullet ? (
+                <div className="text-md text-gray-500 font-light mb-2  tracking-wide pt-0 -mt-6 pl-4 list-disc">
+                  <li>{paragraph.bullet}</li>
+                </div>
+              ) : (
+                ""
+              )}
             </div>
           ))}
         </div>
