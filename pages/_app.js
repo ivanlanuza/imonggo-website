@@ -69,11 +69,12 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       <Script
+        id="GA-01"
         strategy="lazyOnload"
         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
       />
 
-      <Script strategy="lazyOnload">
+      <Script strategy="lazyOnload" id="GA-02">
         {`
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
