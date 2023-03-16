@@ -9,6 +9,11 @@ const nextConfig = {
         destination: "https://secure.imonggo.com/login",
         permanent: true,
       },
+      {
+        source: "/signup-now",
+        destination: "https://secure.imonggo.com/signup-now",
+        permanent: true,
+      },
     ];
   },
 };
